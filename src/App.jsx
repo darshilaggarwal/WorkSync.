@@ -1,12 +1,13 @@
 import React from 'react'
+import Login from './components/Login'
 
 const App = () => {
   return (
     <div>
-      <h1 className='text-slate-600 bg-slate-800'
-      >hello</h1>
+      <Login />
     </div>
   )
 }
 
 export default App
+ 
